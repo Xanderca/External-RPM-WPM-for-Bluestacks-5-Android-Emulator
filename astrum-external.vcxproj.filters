@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="workspace">
+      <UniqueIdentifier>{F2F6C4B8-6A8A-4A3B-B3F0-3D2F3E5C3D11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{A0F3F6C1-9DFD-4D7E-A792-8D1E4B6F8E22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="workspace\bluestacks.cpp">
+      <Filter>workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\kernel_structs.cpp">
+      <Filter>workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\memory_engine.cpp">
+      <Filter>workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\gva_memory_bridge.cpp">
+      <Filter>workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\render.cpp">
+      <Filter>workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\main.cpp">
+      <Filter>workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="impl\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="impl\imgui\imgui.cpp" />
+    <ClCompile Include="impl\imgui\imgui_draw.cpp" />
+    <ClCompile Include="impl\imgui\imgui_tables.cpp" />
+    <ClCompile Include="impl\imgui\imgui_widgets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="impl\includes.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\app_config.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\bluestacks.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\types.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\kernel_structs.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\memory.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\memory_engine.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\gva_memory_bridge.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\render.hpp">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="impl\imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="impl\imgui\imconfig.h" />
+    <ClInclude Include="impl\imgui\imgui.h" />
+    <ClInclude Include="impl\imgui\imgui_internal.h" />
+    <ClInclude Include="impl\imgui\imstb_rectpack.h" />
+    <ClInclude Include="impl\imgui\imstb_textedit.h" />
+    <ClInclude Include="impl\imgui\imstb_truetype.h" />
+  </ItemGroup>
+</Project>
