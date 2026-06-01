@@ -17,7 +17,7 @@ This project initializes a memory engine on `HD-Player.exe`, resolves guest CR3 
 ## Basic Setup
 
 1. Build with `Release | x64` in Visual Studio 2022.
-2. Run BlueStacks before launching this project.
+2. Run BlueStacks before launching the Executable.
 3. Set default process/module in `workspace/app_config.hpp` if needed.
 
 ## Example
