@@ -1,4 +1,5 @@
-# External Read/Write Process Memory
+-discord @xander.best
+# External Read/Write Process Memory  
 
 Simple external process memory read/write base for BlueStacks 5 emulator, focused on fast setup, module-base resolve, and clean memory access flow.
 
@@ -36,4 +37,4 @@ memory->write<u32>(libil2cpp + 0x9EC1C48, value);
 ## Notes
 
 - Detailed project notes are available in [example-mem README](example-mem/example-mem/README.md).
-- Created by Xander.
+- Created by Xander.  
