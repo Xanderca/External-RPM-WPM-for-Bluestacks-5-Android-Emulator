@@ -5,7 +5,7 @@ Made by **Xander**.
 This project is a simple external memory base for BlueStacks guest memory work.
 It finds the game task, resolves CR3, gets module base, then lets you read and write memory.
 
-## Quick Flow (Xander Style)
+## flow
 
 1. `setup(package)` connects to BlueStacks memory and resolves target game CR3.
 2. `get_module_base(module, index)` scans VMAs and returns module start address.
@@ -19,14 +19,14 @@ It finds the game task, resolves CR3, gets module base, then lets you read and w
 - Make sure BlueStacks is running.
 - Default target process/module are in `workspace/app_config.hpp`.
 
-## One Line Explain
+## functions
 
 - `setup`: initialize engine, find package task, resolve CR3, attach for user-space reads.
 - `get_module_base`: walk process memory maps and return base of requested `.so`.
 - `read`: translate guest VA to host and return value/bytes from that address.
 - `write`: translate guest VA to host and push new value/bytes to that address.
 
-## Xander Use Case Example
+## Use Case Example
 
 ```cpp
 #include <impl/includes.hpp>
@@ -67,4 +67,4 @@ int main() {
 
 ---
 
-Creator fingerprint: **Xander**
+Author copyright: **Xander**
