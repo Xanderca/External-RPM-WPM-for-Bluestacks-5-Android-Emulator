@@ -11,7 +11,7 @@ int main(){
 			return 1;
 
 		libil2cpp_base = bluestacks->get_module_base("libil2cpp.so", 1);  /* change 2nd argument int
-                                                                           if elf headers/offset read return null or is not on 1st mapping address*/
+                                                                           if !elf headers/offset==00 read return null or is not on 1st mapping address*/
 
 		if (!libil2cpp_base)return 1;
 
