@@ -1,4 +1,4 @@
-# Xander External Mem
+# External Mem
 
 Made by **Xander** , **OriGin**.
 
