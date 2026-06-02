@@ -67,4 +67,4 @@ int main() {
 
 ---
 
-Author copyright: **Xander**, **OriGin
+Author copyright: **Xander**, **OriGin**
