@@ -17,7 +17,7 @@ namespace offsets {
     constexpr u64 vm_chunk_tree_root       = 0x106C60;
     constexpr u64 vm_page_map_cache        = 0x106C80;
     constexpr u64 vm_cpu_array             = 0x11FE00;
-    constexpr u64 bstk_map_chunk_rva       = 0xDA070;//for bluestacks latest or version above 5.22.130+++ use this offset // 0xA24C0;// and before that replace driver
+    constexpr u64 bstk_map_chunk_rva       = 0xDA070;
     constexpr u64 expected_pvcpu_delta     = 0x120000;
     constexpr u64 peb_ldr                  = 0x18;
     constexpr u64 range_start              = 0x0;
