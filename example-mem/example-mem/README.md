@@ -49,8 +49,8 @@ int main() {
     auto xander_match_status       = memory->read<u32>(xander_current_match + 0x8C);
     auto xander_local_player       = memory->read<u32>(xander_current_match + 0x94);
 
-    cout << "Xander module base: " << hex << xander_libil2cpp << "\n";
-    cout << "Xander match status: " << dec << xander_match_status << "\n";
+    cout << " module base: " << hex << xander_libil2cpp << "\n";
+    cout << " match status: " << dec << xander_match_status << "\n";
 
     u32 xander_new_value = 1;
     memory->write<u32>(xander_current_match + 0x8C, xander_new_value);
