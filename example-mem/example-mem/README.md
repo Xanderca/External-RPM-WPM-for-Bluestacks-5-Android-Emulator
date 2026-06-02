@@ -1,6 +1,6 @@
 # Xander External Mem
 
-Made by **Xander**.
+Made by **Xander** , **OriGin**.
 
 This project is a simple external memory base for BlueStacks guest memory work.
 It finds the game task, resolves CR3, gets module base, then lets you read and write memory.
@@ -67,4 +67,4 @@ int main() {
 
 ---
 
-Author copyright: **Xander**
+Author copyright: **Xander**, **OriGin
