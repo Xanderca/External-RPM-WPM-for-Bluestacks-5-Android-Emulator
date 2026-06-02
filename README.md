@@ -2,6 +2,7 @@
 
 - my discord @xander.best
 - my friend dc @opgamer_ff
+- my friend dc @Smartyxd0
 # External Read/Write Process Memory  
 
 Simple external process memory read/write base for BlueStacks 5 emulator, focused on fast setup, module-base resolve, and clean memory access flow.
