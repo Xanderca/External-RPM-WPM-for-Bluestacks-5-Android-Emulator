@@ -1,4 +1,7 @@
--discord @xander.best
+## The project was created by me and with help of my friend origin
+
+- my discord @xander.best
+- my friend dc @opgamer_ff
 # External Read/Write Process Memory  
 
 Simple external process memory read/write base for BlueStacks 5 emulator, focused on fast setup, module-base resolve, and clean memory access flow.
