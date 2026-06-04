@@ -2,7 +2,6 @@
 
 - my discord @xander.best
 - my friend dc @opgamer_ff
-- Credit lene valo ki maa ki chut
 
 # External Read/Write Process Memory  
 
