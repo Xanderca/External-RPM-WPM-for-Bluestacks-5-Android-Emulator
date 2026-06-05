@@ -1,4 +1,4 @@
-## The project was created by me and with help of my friend origin
+## The project was created by me and with help of my friends
 
 - my discord @xander.best
 - my friend dc @opgamer_ff
