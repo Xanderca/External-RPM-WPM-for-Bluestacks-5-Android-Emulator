@@ -3,8 +3,11 @@
 - my discord @xander.best
 - my friend dc @opgamer_ff
 - my friend dc @addr_t
+## @opgamer_ff aslo known as paidfire helped me in understanding the virtual box layout and implementation of overall mem_engine and cache sub_system.
+## @addr_t also known as zxsrxt early who help me in understanding kernel layout and finded kernel structs which is crucial part thanks to him.
 
-# @addr_t also known as zxsrxt helped in early phases of finding kernel structs which is crucial part
+## thanks to all the contributors and friends without you it was never possible
+
 
 # External Read/Write Process Memory  
 
