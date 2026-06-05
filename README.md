@@ -2,6 +2,9 @@
 
 - my discord @xander.best
 - my friend dc @opgamer_ff
+- my friend dc @addr_t
+
+# @addr_t also known as zxsrxt helped in early phases of finding kernel structs which is crucial part
 
 # External Read/Write Process Memory  
 
